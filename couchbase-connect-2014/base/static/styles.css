@@ -490,6 +490,7 @@ figcaption {
 
 .slides > article .copyright {
   position:absolute;
+  font-size:0.5em;
   bottom:10px;
   left:10px;
   color: gray;
