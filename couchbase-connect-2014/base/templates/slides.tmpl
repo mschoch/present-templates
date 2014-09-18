@@ -51,12 +51,14 @@
   <!-- end of slide {{$i}} -->
   {{end}}{{/* of Slide block */}}
 
-      <article>
-        <h3>Thank you</h1>
+      <article class="main">
+        <div class="header">
+          <div class="circle"></div>
+          <h3>Thank you</h3>
+          <div class="cb"></div>
+        </div>
         {{range .Authors}}
-          <div class="presenter">
             {{range .Elem}}{{elem $.Template .}}{{end}}
-          </div>
         {{end}}
       </article>
 
