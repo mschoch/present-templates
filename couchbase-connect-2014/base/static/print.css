@@ -30,6 +30,12 @@ body {
   -webkit-transform: translate3d(0, 0, 0) !important;
 }
 
+.slides > .head {
+  background: radial-gradient(#e7442e, #9e2c23);
+  color: white;
+  text-align: center;
+}
+
 div.code {
   background: rgb(240, 240, 240);
 }
