@@ -496,6 +496,14 @@ figcaption {
   color: gray;
 }
 
+.slides > article .pagenum {
+  position:absolute;
+  font-size:0.5em;
+  bottom:10px;
+  right:10px;
+  color: gray;
+}
+
 .slides > .head .connect {
   margin: 0 auto;
   content:url(/static/connect.png);
@@ -560,4 +568,12 @@ figcaption {
   padding-top: 15px;
   padding-bottom: 15px;
   color: white;
+}
+
+.numbers span:before {
+  content: attr(num);
+  color: gray;
+  display: block;
+  float: left;
+  width: 2em;
 }
