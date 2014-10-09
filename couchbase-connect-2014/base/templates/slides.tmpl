@@ -38,6 +38,7 @@
           </div>
         {{range $s.Elem}}{{elem $.Template .}}{{end}}
           <div class="copyright">&copy;2014 Couchbase, Inc.</div>
+          <div class="pagenum">{{$i}}</div>
         </article>
       {{else}}
         <article class="section">
