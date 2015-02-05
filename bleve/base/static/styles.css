@@ -469,6 +469,8 @@ figcaption {
 
 .slides > article .header h3 {
   color: white;
+  padding-left: 40px;
+  padding-top: 10px;
 }
 
 .slides > article .header {
